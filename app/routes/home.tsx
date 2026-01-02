@@ -65,6 +65,20 @@ export default function Home() {
           <Link to="/upload" className="primary-button w-fit text-xl font-semi-bold">Upload Resume</Link>
         </div>
       )}
+      
+      <footer className="mt-16 pb-8 text-center">
+        <p className="text-sm text-gray-600 dark:text-gray-400">
+          Made by{" "}
+          <a 
+            href="https://personal-portfolio-tan-delta.vercel.app/" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="font-semibold text-blue-600 dark:text-blue-400 hover:text-blue-700 dark:hover:text-blue-300 transition-colors underline"
+          >
+            Bhawuk Pahuja
+          </a>
+        </p>
+      </footer>
     </section>
     </main>;
 }

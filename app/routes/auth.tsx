@@ -44,6 +44,19 @@ const auth = () => {
                         </>
                     )} 
                 </div>
+                <div className="mt-4 text-center">
+                  <p className="text-sm text-gray-600 dark:text-gray-400">
+                    Made by{" "}
+                    <a 
+                      href="https://personal-portfolio-tan-delta.vercel.app/" 
+                      target="_blank" 
+                      rel="noopener noreferrer"
+                      className="font-semibold text-blue-600 dark:text-blue-400 hover:text-blue-700 dark:hover:text-blue-300 transition-colors underline"
+                    >
+                      Bhawuk Pahuja
+                    </a>
+                  </p>
+                </div>
             </section>
         </div>
     </main>
